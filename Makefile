@@ -12,4 +12,4 @@ install: $(VENV)/bin/activate
 	pre-commit install --hook-type commit-msg
 
 run: $(VENV)/bin/activate
-	$(PYTHON) main.py
+	$(PYTHON) -u main.py
